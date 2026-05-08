@@ -15,10 +15,9 @@ there exist in AQ_n - F:
 
 such that
 
-```text
 V(P) cap V(C) = empty,
 V(P) cup V(C) = V(AQ_n).
-```
+
 
 Here both path length and cycle length are counted by edges.
 
