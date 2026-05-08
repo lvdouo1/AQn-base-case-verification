@@ -6,7 +6,11 @@ This repository contains the computer-assisted verification code for the base ca
 
 Let AQ_n be the n-dimensional augmented cube. For n = 3,4, the program verifies the following statement:
 
-For every fault set F with F subset E(AQ_n) and |F| <= 1, every nonfaulty edge e = uv in E(AQ_n) \ F, and every integer l satisfying 2 <= l <= 2^n - 4 .
+For every fault set F with F subset E(AQ_n) and |F| <= 1, every nonfaulty edge e = uv in E(AQ_n) \ F, and every integer l satisfying
+
+```text
+2 <= l <= 2^n - 4
+```
 
 there exist in AQ_n - F:
 
@@ -15,9 +19,10 @@ there exist in AQ_n - F:
 
 such that
 
+```text
 V(P) cap V(C) = empty,
 V(P) cup V(C) = V(AQ_n).
-
+```
 
 Here both path length and cycle length are counted by edges.
 
